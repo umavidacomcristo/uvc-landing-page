@@ -1,0 +1,29 @@
+<section id="testimonials-section" class="testimonials-section home-section">
+  <div class="container">
+    <div class="section-header">
+      <h2>Inspirados para inspirar</h2>
+      <p>Juntos, propagamos os ensinos de Cristo à toda uma geração!
+      </p>
+    </div>
+    <div fxLayout="row wrap" fxLayout.lt-md="column"  fxLayoutGap="30px" fxLayoutAlign = "center">
+      <nb-card *ngFor="let item of teamInfo" style="max-width: 400px;">
+        <nb-card-header>
+          <div fxLayout = "column" fxLayoutAlign = "center center">
+            <div>
+              <img src="https://material.angular.io/assets/img/examples/shiba2.jpg" width="200px" height="200px" alt="Photo of a Shiba Inu">
+            </div>
+
+            <div>
+              {{item.name}}
+            </div>
+          </div>
+
+
+        </nb-card-header>
+        <nb-card-body>
+          {{item.description}}
+        </nb-card-body>
+      </nb-card>
+    </div>
+  </div>
+</section>
