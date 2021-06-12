@@ -9,5 +9,9 @@
 
 @import '~bootstrap/dist/css/bootstrap.min.css';
 
-html, body { height: 100%; }
+html, body { height: 100%; width: 100%; background-color: var(--primary-color); }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+:root{
+  --primary-color: whitesmoke;
+}
