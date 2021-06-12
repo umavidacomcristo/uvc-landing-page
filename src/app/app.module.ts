@@ -10,15 +10,18 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { HeaderComponent } from './components/shared/header/header.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { MaterialModule } from './material.module';
-import { DOCUMENT } from '@angular/common';
 import { TeamComponent } from './components/shared/team/team.component';
+import { SplashComponent } from './components/shared/splash/splash.component';
+import { HomeComponent } from './components/shared/home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    TeamComponent
+    TeamComponent,
+    SplashComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
