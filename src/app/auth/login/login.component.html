@@ -1,0 +1,38 @@
+<nb-layout>
+  <nb-layout-column center>
+    <div fxLayoutAlign = "center">
+      <nb-card style="margin-top: 20px; margin-left: 10px; margin-right: 10px; max-width: 400px;">
+        <nb-card-header>
+            <p style="font-weight: bold;  text-align: center;">Acesso restrito para colaboradores</p>
+        </nb-card-header>
+        <nb-card-body>
+          <div fxLayout = "column" fxLayoutAlign = "center center">
+            <img src="assets/images/logo-splash.png" alt="UVC logo" width="100px">
+            <p style="font-size: 20px; font-weight: bold;">Bem vindo!</p>
+            <p style="color: gray; font-weight: bold;">Por favor, informe suas credenciais</p>
+            <form [formGroup]="formLogin">
+              <input style="margin-bottom: 10px;"type="text"
+              nbInput fullWidth status="basic" placeholder="Usuário"
+              formControlName = "login">
+              <input style="margin-bottom: 10px;" type="password"
+              nbInput fullWidth status="basic" placeholder="Senha"
+              formControlName = "password">
+              <button nbButton (click) = "onSubmit()" fullWidth shape="semi-round" status = "primary">Logar</button>
+            </form>
+          </div>
+        </nb-card-body>
+        <nb-card-footer>
+          <p style="color: gray; font-weight: bold;">Se necessário, entre em contato com o suporte.</p>
+          </nb-card-footer>
+      </nb-card>
+    </div>
+
+  </nb-layout-column>
+  <nb-layout-footer>
+    <nb-icon icon="shield"></nb-icon>
+    Seus dados estão encriptados.
+  </nb-layout-footer>
+</nb-layout>
+
+
+
