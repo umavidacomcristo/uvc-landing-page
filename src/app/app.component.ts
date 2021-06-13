@@ -31,7 +31,7 @@ export class AppComponent implements OnInit {
      private router: Router){}
   ngOnInit(): void {
     if(this.deviceDetector.isDesktop()){
-      this.router.navigate(['/']);
+      this.router.navigate(['/login']);
     }else{
       this.router.navigate(['/splash'])
     }
