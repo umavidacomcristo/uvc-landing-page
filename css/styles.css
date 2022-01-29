@@ -236,11 +236,11 @@ sup {
 }
 
 a {
-  color: #ee0979;
+  color: #c82429;
   text-decoration: underline;
 }
 a:hover {
-  color: #be0761;
+  color: #8a1c1f;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -3943,7 +3943,7 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #ee0979;
+  color: #c82429;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -3953,7 +3953,7 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
-  color: #be0761;
+  color: #8a1c1f;
 }
 .nav-link.disabled {
   color: #6c757d;
@@ -11300,9 +11300,11 @@ html {
 }
 
 .navbar-custom {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  background-color: rgba(0, 0, 0, 0.7);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: white;
+  -webkit-box-shadow: 0px 9px 18px -7px rgba(0,0,0,0.52); 
+  box-shadow: 0px 9px 18px -7px rgba(0,0,0,0.52);
 }
 .navbar-custom .navbar-brand {
   text-transform: uppercase;
