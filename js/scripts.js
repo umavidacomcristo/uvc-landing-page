@@ -5,3 +5,20 @@
 */
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
+
+$(document).ready(function() {
+
+    $("#sign-up-btn").click(()=> {
+        $("#uvc-modal").modal('show');
+    })
+
+    $("#login-btn").click(()=> {
+        $("#uvc-modal").modal({show:true});
+    })
+
+    $("#close-modal").click(() => {
+        $("#uvc-modal").modal("toggle");
+    })
+
+
+});
