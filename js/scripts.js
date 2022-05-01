@@ -13,7 +13,7 @@ $(document).ready(function() {
     })
 
     $("#login-btn").click(()=> {
-        $("#uvc-modal").modal({show:true});
+        $("#uvc-modal").modal('show');
     })
 
     $("#close-modal").click(() => {
