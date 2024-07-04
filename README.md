@@ -11,4 +11,4 @@ O projeto é gerido por voluntários e valorizamos as contribuições e revisõe
 
 ## Links:
 
-- [Site do Uma Vida com Cristo]([https://exemplo.com/uma-vida-com-cristo](https://umavidacomcristo.netlify.app/))
+- [Site do Uma Vida com Cristo](https://umavidacomcristo.netlify.app/)
