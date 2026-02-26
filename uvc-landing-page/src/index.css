@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  /* Definindo os Keyframes */
+  @keyframes fade-in-up {
+    0% {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Definindo a utilidade de animação */
+  --animate-fade-in-up: fade-in-up 0.5s ease-out forwards;
+}
+
+.marca-dagua {
+  @apply fixed inset-0 pointer-events-none z-0;
+  background-image: url('./assets/img/logo.png'); /* Verifique o caminho */
+  background-repeat: repeat;
+  background-size: 120px;
+  opacity: 0.015;
+  filter: grayscale(1);
+}
